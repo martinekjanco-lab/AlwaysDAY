@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "alwaysday",
+  "version": "${version}",
+  "name": "AlwaysDay",
+  "description": "Client-side: it is always sunny day, never rain or snow.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vyn.alwaysday.AlwaysDayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
